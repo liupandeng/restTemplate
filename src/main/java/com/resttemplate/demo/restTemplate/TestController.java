@@ -1,4 +1,4 @@
-package com.resttemplate.demo;
+package com.resttemplate.demo.restTemplate;
 
 import org.springframework.web.bind.annotation.*;
 

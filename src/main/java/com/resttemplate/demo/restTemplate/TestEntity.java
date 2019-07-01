@@ -1,4 +1,4 @@
-package com.resttemplate.demo;
+package com.resttemplate.demo.restTemplate;
 
 public class TestEntity {
     private Integer id;
