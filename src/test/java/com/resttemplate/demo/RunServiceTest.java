@@ -36,11 +36,11 @@ public class RunServiceTest {
     public void sendMessage() throws URISyntaxException {
         Map<String, String> map = new HashMap<String, String>();
         //发送方帐号
-        map.put("FromUserName","pd_xiaowei");
+        map.put("FromUserName","od0aVw-CrXimRWRklQwLcusxXlaI");
         // 开发者微信号
         map.put("ToUserName","loveliupandeng");
-        String appId = "wx6f337efdacbc660b";
-        String appSecret = "c8cea8aa77eed17e710925291dce8e4a";
+        String appId = "wxf8f1abf2a9d3a10f";
+        String appSecret = "5821d932008fe0c0b3cf4aba598f1a51";
         AccessTokenInfo.accessToken = MessageHandlerUtil.getAccessToken(appId, appSecret);
         MessageHandlerUtil.buildTempMessage(map);
     }
