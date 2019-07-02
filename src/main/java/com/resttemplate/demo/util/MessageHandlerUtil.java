@@ -249,7 +249,7 @@ public class MessageHandlerUtil {
     	template.setUrl("www.baidu.com");
     	template.setTouser(fromUserName);
     	template.setTopcolor("#000000");
-    	template.setTemplate_id("7vDeuMb3N8CNR8b8BL0aYRkd6CeGTiGY1Q-IzwOaQeg");
+    	template.setTemplate_id("954FCIp0kNluXQVfM1TFhHida-DlCMgLYgZdaCCDFcU");
     	Map<String, TemplateData> m = new HashMap<String,TemplateData>();
     	TemplateData first = new TemplateData();
     	first.setColor("#000000");
