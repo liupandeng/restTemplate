@@ -36,7 +36,9 @@ public class RunServiceTest {
     public void sendMessage() throws URISyntaxException {
         Map<String, String> map = new HashMap<String, String>();
         //发送方帐号
-        map.put("FromUserName","od0aVw-CrXimRWRklQwLcusxXlaI");
+//        map.put("FromUserName","od0aVw-CrXimRWRklQwLcusxXlaI");
+        map.put("FromUserName","od0aVw73WujoO-eQ_0Gk0F7GFFS8");
+
         // 开发者微信号
         map.put("ToUserName","loveliupandeng");
         String appId = "wxf8f1abf2a9d3a10f";
